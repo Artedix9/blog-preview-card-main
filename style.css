@@ -1,0 +1,111 @@
+/* 
+
+  COLORS
+
+  #F4D04E
+  #111
+  #6b6b6b
+  #fff 
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "figtree", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+  background-color: #f4d04e;
+}
+
+.card {
+  background-color: #fff;
+  width: 38.4rem;
+  padding: 2.4rem;
+  border-radius: 20px;
+  border: 1px solid #111;
+  box-shadow: 0.8rem 0.8rem 0 rgb(0, 0, 0);
+  transition: all 0.4s;
+}
+
+.card:hover {
+  box-shadow: 1.4rem 1.4rem 0 rgb(0, 0, 0);
+}
+
+.card:hover .main-title {
+  color: #f4d04e;
+}
+
+.card-image {
+  width: 33.6rem;
+  height: 20rem;
+  border-radius: 10px;
+  margin-bottom: 2.4rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-bottom: 2.4rem;
+}
+
+.tag {
+  padding: 0.5rem 1.2rem;
+  background-color: #f4d04e;
+  border-radius: 4px;
+  align-self: flex-start;
+}
+
+.tag,
+.author-name {
+  font-size: 1.4rem;
+  font-weight: 900;
+}
+
+.sub-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.main-title {
+  font-size: 2.4rem;
+  font-weight: 800;
+  transition: all 0.4s;
+}
+
+.card-text {
+  color: #6b6b6b;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.author img {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+@media (max-width: 28.75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
