@@ -15,5 +15,5 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/artedix9)
-- Twitter - [@yourusername](https://www.twitter.com/artedix9)
+- Frontend Mentor - [@Artedix9](https://www.frontendmentor.io/profile/artedix9)
+- Twitter - [@Artedix9](https://www.twitter.com/artedix9)
